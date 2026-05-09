@@ -1,0 +1,26 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# User config (not the example)
+news-sources.md
+.env
+.env.local
+
+# Generated digests (each user's output)
+digests/
+
+# Scheduler artifacts
+logs/
+.halt
+.failure_count
+
+# Misc
+*.tmp
+*.bak

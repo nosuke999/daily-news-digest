@@ -1,0 +1,15 @@
+{
+  "name": "daily-news-digest",
+  "owner": {
+    "name": "subhive",
+    "url": "https://github.com/nosuke999/daily-news-digest"
+  },
+  "plugins": [
+    {
+      "name": "daily-news-digest",
+      "source": "./",
+      "description": "Generate a daily news digest in Markdown from your configured sources. Selection criteria, dedup, and output format are all driven by user-edited config — no opinions baked in.",
+      "version": "0.1.0"
+    }
+  ]
+}
