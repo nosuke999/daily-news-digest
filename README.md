@@ -13,7 +13,7 @@ A Claude Code plugin that generates a daily news digest in Markdown — curated 
 関連:
 - Threads `@subhive` — 日々の Web 制作×Claude Code の実例
 - note `note.com/subhive` — テンプレ集 (有料記事、5/17 公開予定)
-- YouTube `@subhive` — 60 秒の Claude Code ニュース要約
+- YouTube [`@SubhiveLab`](https://youtube.com/@SubhiveLab) (チャンネル名 subhive) — 60 秒の Claude Code ニュース要約
 
 
 ## What it does
