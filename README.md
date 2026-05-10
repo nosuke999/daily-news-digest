@@ -2,7 +2,19 @@
 
 A Claude Code plugin that generates a daily news digest in Markdown — curated from sources you define, deduplicated against the past 7 days, in any language. Pair it with a scheduler (cron / Windows Task Scheduler) for hands-off operation.
 
-> **Status**: 0.1.0 (early). Tested on Windows + PowerShell. Bug reports and PRs welcome.
+> **Status**: 0.1.1 (early). Tested on Windows + PowerShell. Bug reports and PRs welcome.
+
+## subhive について
+
+> **subhive = Claude Code で Web 制作を高速化する実用テンプレ屋**
+
+このプラグインは subhive が提供する最初の OSS です。日本語 Web 制作者向けに、英語ドキュメントを追わずに Anthropic 公式 + コミュニティの Claude Code 実用情報を毎朝届けることを主な想定用途にしています。汎用 RSS digest としても使えますが、選定基準を「Claude Code 実用情報」に寄せた `news-sources.example.md` を同梱しています。
+
+関連:
+- Threads `@subhive` — 日々の Web 制作×Claude Code の実例
+- note `note.com/subhive` — テンプレ集 (有料記事、5/17 公開予定)
+- YouTube `@subhive` — 60 秒の Claude Code ニュース要約
+
 
 ## What it does
 

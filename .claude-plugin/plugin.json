@@ -1,7 +1,7 @@
 {
   "name": "daily-news-digest",
-  "description": "Generate a daily news digest in Markdown from any web/RSS sources you configure. Reads sources from news-sources.md, picks 1-5 items per day with selection criteria you define, deduplicates against the past 7 days, and writes a dated digest file. Pair with a scheduler (cron / Task Scheduler) for hands-off operation.",
-  "version": "0.1.0",
+  "description": "subhive (Claude Code で Web 制作を高速化する実用テンプレ屋) が提供する OSS Plugin。Generate a daily news digest in Markdown from any web/RSS sources you configure. Reads sources from news-sources.md, picks 1-5 items per day with selection criteria you define, deduplicates against the past 7 days, and writes a dated digest file. Pair with a scheduler (cron / Task Scheduler) for hands-off operation.",
+  "version": "0.1.1",
   "author": {
     "name": "subhive",
     "url": "https://github.com/nosuke999/daily-news-digest"
