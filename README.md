@@ -115,6 +115,13 @@ Each digest file is plain Markdown with YAML frontmatter, a TL;DR, and 1–5 ite
 - **No persistent storage** — each run reads `digests/` for the dedup window; that's it.
 - **No PII filtering** — your selection criteria controls what gets summarized.
 
+## Known limitations
+
+- **Reddit fetch is currently blocked.** WebFetch from `www.reddit.com` and `old.reddit.com` is rejected by Claude Code's fetcher (bot detection). Verified against `r/ClaudeCode` and `r/ClaudeAI` on 2026-05-09 and 2026-05-10. The example sources file lists Reddit URLs as `❌` by default. Use **Hacker News (Algolia API) + Zenn / Qiita / Hatena / GitHub Advisories** as your Tier 2 sources instead.
+- **Hacker News RSS (`hnrss.org`) can time out** under load. Prefer the Algolia search API: `https://hn.algolia.com/?dateRange=last24h&query=<your-keyword>`.
+- **48-hour update window** is hardcoded. Slow-moving sources (e.g. official engineering blogs that publish weekly) often have nothing in 48h — that's not a fetch failure, it's the source's cadence. The skill correctly distinguishes the two in `## Failed sources`.
+- **Documentation URL drift**: official docs sometimes redirect (e.g. `docs.claude.com` → `platform.claude.com`). The skill notes redirects in failed-source diagnostics; update your `news-sources.md` when prompted.
+
 ## Roadmap
 
 - [ ] 0.2.0: built-in webhook plugins (Discord / Slack) so the skill can deliver natively without a wrapper script.

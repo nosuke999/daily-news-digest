@@ -25,8 +25,10 @@ I want a daily brief on **front-end web development with AI coding tools** (Clau
 
 ## Tier 2 — Community
 
-- ✅ https://www.reddit.com/r/ClaudeCode/top/?t=day
-- ✅ https://hn.algolia.com/?dateRange=last24h&query=claude%20code
+- ❌ https://www.reddit.com/r/ClaudeCode/top/?t=day  <!-- Reddit fetch is blocked by Claude Code (bot detection). Leave disabled until upstream fix. -->
+- ❌ https://old.reddit.com/r/ClaudeCode/top/?t=day  <!-- Same as above (old.reddit.com is also blocked). -->
+- ✅ https://hn.algolia.com/?dateRange=last24h&query=claude%20code  <!-- Algolia API is the recommended HN source; the RSS endpoint (hnrss.org) can time out. -->
+- ✅ https://github.com/anthropics/claude-code/security/advisories  <!-- Security advisories — useful for spotting fixed CVEs and version-bump triggers. -->
 
 ## Tier 3 — JP / regional (use only when Tier 1-2 is light)
 
