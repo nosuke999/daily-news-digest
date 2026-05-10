@@ -6,13 +6,13 @@ A Claude Code plugin that generates a daily news digest in Markdown — curated 
 
 ## subhive について
 
-> **subhive = Claude Code で Web 制作を高速化する実用テンプレ屋**
+> **subhive = Claude Code で副業を動かし続ける仕組み屋**
 
-このプラグインは subhive が提供する最初の OSS です。日本語 Web 制作者向けに、英語ドキュメントを追わずに Anthropic 公式 + コミュニティの Claude Code 実用情報を毎朝届けることを主な想定用途にしています。汎用 RSS digest としても使えますが、選定基準を「Claude Code 実用情報」に寄せた `news-sources.example.md` を同梱しています。
+このプラグインは subhive が提供する最初の OSS です。日本語の副業エンジニア / 個人開発者向けに、英語ドキュメントを追わずに Anthropic 公式 + コミュニティの Claude Code 実用情報を毎朝届けることを主な想定用途にしています。汎用 RSS digest としても使えますが、選定基準を「Claude Code 実用情報」に寄せた `news-sources.example.md` を同梱しています。
 
 関連:
-- Threads `@subhive` — 日々の Web 制作×Claude Code の実例
-- note `note.com/subhive` — テンプレ集 (有料記事、5/17 公開予定)
+- Threads `@subhive` — 日々の副業 × Claude Code の実例
+- note `note.com/subhive` — 副業を仕組み化するノウハウ (記事は順次公開)
 - YouTube [`@SubhiveLab`](https://youtube.com/@SubhiveLab) (チャンネル名 subhive) — 60 秒の Claude Code ニュース要約
 
 

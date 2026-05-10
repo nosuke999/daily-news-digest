@@ -4,7 +4,7 @@
 
 ## Selection criteria (rewrite this for your domain)
 
-I want a daily brief on **front-end web development with AI coding tools** (Claude Code, Cursor, Copilot, etc.).
+I want a daily brief on **AI coding tools for solo developers** (Claude Code, Cursor, Copilot, etc.) — automation patterns, skills, hooks, workflows that fit limited side-time.
 
 **Adopt** items that:
 - Teach a concrete technique (a new flag, hook, skill, prompt pattern, workflow)
